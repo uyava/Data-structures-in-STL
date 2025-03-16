@@ -21,6 +21,8 @@ class YearAvg
     int getYear();
     double getRain();
 
+    const std::string toCSV();
+
     private:
     int year;
     double temp, rain;
